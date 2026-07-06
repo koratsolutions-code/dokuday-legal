@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Politica de Privacidad - DokuDay: Daily Sudoku</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f3f7fa;
+      --card: #ffffff;
+      --text: #082e49;
+      --muted: #5f6f7b;
+      --line: #d8e2ea;
+      --accent: #05c7a2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 32px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 56px);
+      box-shadow: 0 18px 50px rgba(8, 46, 73, 0.08);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 34px 0 10px;
+      font-size: clamp(22px, 3vw, 30px);
+      line-height: 1.15;
+    }
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 18px;
+    }
+    p, li {
+      font-size: 16px;
+      color: #263f52;
+    }
+    .meta {
+      color: var(--muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 12px;
+      margin-bottom: 24px;
+    }
+    .summary {
+      border-left: 5px solid var(--accent);
+      background: #e7fbf6;
+      padding: 16px 20px;
+      border-radius: 16px;
+      margin: 24px 0;
+    }
+    a { color: #008ff5; }
+    footer {
+      margin-top: 42px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="meta">Korat Solutions</p>
+    <h1>Politica de Privacidad de DokuDay: Daily Sudoku</h1>
+    <p><strong>Fecha de entrada en vigor:</strong> 6 de julio de 2026</p>
+    <p>
+      DokuDay: Daily Sudoku ("DokuDay", "la app") es una aplicacion movil de Sudoku diario operada por
+      Korat Solutions. Esta politica explica que informacion se guarda, para que se usa y como puedes controlar tus datos.
+    </p>
+    <p><strong>Contacto de privacidad:</strong> <a href="mailto:koratsolutions@gmail.com">koratsolutions@gmail.com</a></p>
+
+    <div class="summary">
+      <p><strong>Resumen:</strong> Puedes usar DokuDay sin crear una cuenta. Si juegas sin cuenta, tu progreso se guarda localmente en tu dispositivo. Si conectas una cuenta, la app sincroniza tu progreso y perfil con Supabase para que puedas recuperarlos. No vendemos tus datos personales y no usamos tus datos para publicidad comportamental.</p>
+    </div>
+
+    <h2>1. Informacion que guardamos</h2>
+    <h3>Datos guardados localmente</h3>
+    <p>Cuando usas la app, DokuDay puede guardar en tu dispositivo:</p>
+    <ul>
+      <li>Nombre visible, foto de perfil seleccionada o inicial del nombre.</li>
+      <li>Preferencias de idioma, tema, entrada por botones o teclado, sonidos, vibracion y recordatorio diario.</li>
+      <li>Progreso de partidas, fechas jugadas, tiempos, pistas usadas, estado del tablero, notas y estadisticas.</li>
+      <li>Insignias, marcos, destellos y estilos de tablero desbloqueados.</li>
+    </ul>
+
+    <h3>Datos sincronizados si conectas una cuenta</h3>
+    <p>Si inicias sesion o creas una cuenta, podemos sincronizar:</p>
+    <ul>
+      <li>Identificador de usuario de Supabase.</li>
+      <li>Email de la cuenta.</li>
+      <li>Proveedor de inicio de sesion usado, por ejemplo email, Google o Apple.</li>
+      <li>Nombre visible y datos de perfil.</li>
+      <li>Progreso, historial, estadisticas, preferencias y recompensas desbloqueadas.</li>
+    </ul>
+    <p>DokuDay no guarda tu contrasena. La autenticacion la gestiona Supabase Auth.</p>
+
+    <h3>Datos de Google o Apple</h3>
+    <p>Si usas Google o Apple para iniciar sesion, esos proveedores pueden compartir la informacion necesaria para autenticarte, como tu email o identificador de cuenta, segun su configuracion y permisos.</p>
+
+    <h3>Notificaciones</h3>
+    <p>Si activas recordatorios diarios, la app guarda la hora elegida y solicita permisos de notificacion al sistema operativo. Puedes desactivar los recordatorios desde Ajustes o desde la configuracion del dispositivo.</p>
+
+    <h2>2. Informacion que no recolectamos</h2>
+    <p>DokuDay no recolecta ubicacion precisa, contactos, datos de salud, pagos, informacion financiera ni datos gubernamentales. Actualmente la app no contiene anuncios.</p>
+
+    <h2>3. Para que usamos la informacion</h2>
+    <ul>
+      <li>Mostrar tu perfil, progreso, rachas, historial y recompensas.</li>
+      <li>Permitir jugar sin cuenta y continuar partidas en el mismo dispositivo.</li>
+      <li>Sincronizar progreso cuando conectas una cuenta.</li>
+      <li>Recuperar progreso al iniciar sesion en otro dispositivo.</li>
+      <li>Enviar recordatorios diarios si los activas.</li>
+      <li>Mantener seguridad, prevenir abusos y depurar errores tecnicos.</li>
+    </ul>
+
+    <h2>4. Servicios externos</h2>
+    <p>DokuDay usa servicios externos necesarios para funcionar:</p>
+    <ul>
+      <li>Supabase: autenticacion, base de datos y sincronizacion de progreso.</li>
+      <li>Google: inicio de sesion con Google, si lo activas.</li>
+      <li>Apple: inicio de sesion con Apple, si lo activas.</li>
+      <li>Expo y servicios nativos del dispositivo: soporte de notificaciones, permisos y funciones de app movil.</li>
+    </ul>
+    <p>Estos proveedores pueden procesar datos conforme a sus propias politicas.</p>
+
+    <h2>5. Comparticion de datos</h2>
+    <p>No vendemos datos personales. Podemos compartir datos solo cuando sea necesario para operar la app mediante los proveedores indicados, cumplir obligaciones legales o proteger la seguridad de DokuDay, Korat Solutions o sus usuarios.</p>
+
+    <h2>6. Conservacion y eliminacion</h2>
+    <p>El progreso local permanece en tu dispositivo hasta que lo borres o elimines la app. Si tienes una cuenta, puedes eliminarla desde Ajustes. Al eliminarla, se borran el usuario y los datos sincronizados en Supabase asociados a esa cuenta, incluyendo perfil, partidas, preferencias y recompensas. La app vuelve a modo invitado.</p>
+    <p>Puede quedar informacion limitada durante un periodo razonable si es necesaria para seguridad, cumplimiento legal o copias tecnicas de respaldo.</p>
+
+    <h2>7. Seguridad</h2>
+    <p>Aplicamos medidas razonables para proteger la informacion, incluyendo autenticacion de usuario, politicas de acceso en Supabase y separacion de datos por usuario. Los datos se transmiten usando conexiones cifradas cuando se comunican con servicios externos. Ningun sistema es completamente infalible, por lo que no podemos garantizar seguridad absoluta.</p>
+
+    <h2>8. Menores de edad</h2>
+    <p>DokuDay no esta dirigida a menores de 13 anos ni busca recolectar intencionalmente datos de menores. Si crees que un menor nos envio datos personales, contactanos para revisarlo.</p>
+
+    <h2>9. Tus opciones</h2>
+    <ul>
+      <li>Jugar sin cuenta.</li>
+      <li>Cambiar tu nombre visible y foto de perfil.</li>
+      <li>Cambiar idioma, tema y preferencias de juego.</li>
+      <li>Activar o desactivar recordatorios.</li>
+      <li>Cerrar sesion.</li>
+      <li>Eliminar tu cuenta desde Ajustes.</li>
+    </ul>
+
+    <h2>10. Cambios en esta politica</h2>
+    <p>Podemos actualizar esta politica cuando cambien la app, la ley o nuestros proveedores. Publicaremos la version vigente con su fecha de entrada en vigor.</p>
+
+    <footer>
+      © Korat Solutions - DokuDay: Daily Sudoku
+    </footer>
+  </main>
+</body>
+</html>
